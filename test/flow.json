@@ -149,7 +149,7 @@
                 "inputAnchors": [],
                 "inputs": {
                     "modelName": "gpt-3.5-turbo",
-                    "temperature": "0.9",
+                    "temperature": "0.7",
                     "maxTokens": "",
                     "topP": "",
                     "frequencyPenalty": "",
@@ -405,8 +405,8 @@
             "height": 525,
             "id": "chatOpenAI_1",
             "position": {
-                "x": -822.4886411868538,
-                "y": 232.93453574241022
+                "x": -811.3451106825736,
+                "y": 231.07728065836346
             },
             "type": "customNode",
             "data": {
@@ -549,7 +549,7 @@
                 "inputAnchors": [],
                 "inputs": {
                     "modelName": "gpt-3.5-turbo",
-                    "temperature": "0.9",
+                    "temperature": "0.7",
                     "maxTokens": "",
                     "topP": "",
                     "frequencyPenalty": "",
@@ -572,8 +572,8 @@
             "selected": false,
             "dragging": false,
             "positionAbsolute": {
-                "x": -822.4886411868538,
-                "y": 232.93453574241022
+                "x": -811.3451106825736,
+                "y": 231.07728065836346
             }
         },
         {
@@ -666,7 +666,7 @@
             "height": 476,
             "id": "promptTemplate_1",
             "position": {
-                "x": 201.11187321307736,
+                "x": 208.5408935492641,
                 "y": 716.6249056734061
             },
             "type": "customNode",
@@ -705,7 +705,7 @@
                 ],
                 "inputAnchors": [],
                 "inputs": {
-                    "template": "You are a table format creation that uses that result of an execution agent to create a table with the following input: {result} \nInclude columns named: estimated execution week, post proposal and measure of effectiveness.\nDo not include explanations.",
+                    "template": "You are a JSON format creation that uses that result of an execution agent to create a JSON with the following input: {result} \nInclude keys named: estimated execution week, post proposal and measure of effectiveness.\nDo not include explanations.",
                     "promptValues": "{\"result\":\"{{llmChain_1.data.instance}}\"}"
                 },
                 "outputAnchors": [
@@ -720,7 +720,7 @@
                 "selected": false
             },
             "positionAbsolute": {
-                "x": 201.11187321307736,
+                "x": 208.5408935492641,
                 "y": 716.6249056734061
             },
             "selected": false,
